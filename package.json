@@ -1,0 +1,13 @@
+{
+	"name": "com.fontawesome.upm",
+	"displayName": "Font-Awesome",
+	"description": "the iconic SVG, font, and CSS framework (free version)",
+	"version": "5.13.0",
+	"keywords": ["font", "icons", "symbols"],
+	"license": "SIL OFL 1.1 License",
+	"dependencies": {},
+	"author": {
+		"name": "FontAwesome",
+		"url": "https://fontawesome.com"
+	}
+}
