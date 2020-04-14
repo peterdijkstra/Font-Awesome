@@ -1,14 +1,14 @@
 .font-awesome-brands
 {
-	-unity-font: url("Font Awesome 5 Brands-Regular-400.otf");
+	-unity-font: url("/Packages/com.fontawesome.upm/Font Awesome 5 Brands-Regular-400.otf");
 }
 
 .font-awesome-regular
 {
-	-unity-font: url("Font Awesome 5 Free-Regular-400.otf");
+	-unity-font: url("/Packages/com.fontawesome.upm/Font Awesome 5 Free-Regular-400.otf");
 }
 
 .font-awesome-solid
 {
-	-unity-font: url("Font Awesome 5 Free-Solid-900.otf");
+	-unity-font: url("/Packages/com.fontawesome.upm/Font Awesome 5 Free-Solid-900.otf");
 }
