@@ -4,13 +4,16 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public static class FontAwesomeLoader
+namespace FontAwesome
 {
-	private const string Path = "Packages/com.fontawesome.upm/Styles.uss";
-	
-	public static void ApplySheetTo(VisualElement element)
+	public static class FontAwesomeLoader
 	{
-		var sheet = AssetDatabase.LoadAssetAtPath<StyleSheet>(Path);
-		element.styleSheets.Add(sheet);
+		private const string Path = "Packages/com.fontawesome.upm/Styles.uss";
+		
+		public static void ApplySheetTo(VisualElement element)
+		{
+			var sheet = AssetDatabase.LoadAssetAtPath<StyleSheet>(Path);
+			element.styleSheets.Add(sheet);
+		}
 	}
 }
