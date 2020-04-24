@@ -12,8 +12,10 @@ namespace FontAwesome
 		
 		public static void ApplySheetTo(VisualElement element)
 		{
+#if UNITY_EDITOR
 			var sheet = AssetDatabase.LoadAssetAtPath<StyleSheet>(Path);
 			element.styleSheets.Add(sheet);
+#endif
 		}
 	}
 }
